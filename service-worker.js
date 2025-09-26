@@ -7,9 +7,7 @@ const urlsToCache = [
   '/service-worker.js',
   '/icon192.png',
   '/icon512.png',
-  // 画像やJavaScriptファイルなど、アプリを構成するすべての静的ファイルをここに追加
-  
-  '/circuit_data.js', // 設定ツールで使われるファイル
+   '/circuit_data.js', // 設定ツールで使われるファイル
   // その他のCSSやJSファイルなど
 ];
 
@@ -53,4 +51,5 @@ self.addEventListener('activate', (event) => {
       );
     })
   );
+
 });
