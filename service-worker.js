@@ -5,8 +5,8 @@ const urlsToCache = [
   '/sws.html',
   '/manifest.json',
   '/service-worker.js',
-  '/icon192.png',
-  '/icon512.png',
+  '/icon-192.png',
+  '/icon-512.png',
    '/circuit_data.js', // 設定ツールで使われるファイル
   // その他のCSSやJSファイルなど
 ];
@@ -53,3 +53,4 @@ self.addEventListener('activate', (event) => {
   );
 
 });
+
